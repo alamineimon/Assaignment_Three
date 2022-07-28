@@ -1,0 +1,29 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover ;
+    background-size: cover;
+    border-radius: none;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #000;
+    opacity: 0.3;
+}
+.carousel-caption button{
+    margin-bottom: 220px;
+}
+.carousel-item h5{
+    font-size: 60px;
+}
